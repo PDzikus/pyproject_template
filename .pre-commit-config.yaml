@@ -10,7 +10,7 @@ repos:
       - id: mixed-line-ending
 
   - repo: https://github.com/pycqa/isort
-    rev: 5.11.2
+    rev: 5.13.2
     hooks:
       - id: isort
         name: isort (python)
@@ -20,7 +20,7 @@ repos:
           - "--balanced"
 
   - repo: https://github.com/psf/black
-    rev: 22.10.0
+    rev: 24.3.0
     hooks:
       - id: black
         name: Code formatting (black)
